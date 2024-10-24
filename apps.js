@@ -9,6 +9,7 @@ window.addEventListener("scroll", () => {
     }
 })
 
+
 let bars = document.querySelector("#bars")
 let nav = document.querySelector("#nav")
 let nav_links = document.querySelectorAll("#nav a")
@@ -29,6 +30,7 @@ var typed = new Typed('#element', {
     typeSpeed: 50,
     loop: true
 });
+
 
 var swiper = new Swiper(".mySwiper", {
     slidesPerView: 3,
